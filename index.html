@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!--ICD2O Unit 5-05 HTML-->
+<!--ICD2O Assignment #4 HTML-->
 <html lang="en-ca">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="type of triangle program" />
+    <meta name="description" content="gym membership program program" />
     <meta name="keywords" content="ICD2O, mths" />
     <meta name="author" content="Aimar Fernandez" />
     <meta name="viewport" content="width+device-width, initial-scale=.1.0" />
@@ -20,7 +20,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
-    <title>Type of Triangle Program</title>
+    <title>Gym Membership Program</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -30,23 +30,35 @@
         <br />
         <div class="mdl_layout__header-row">
           <span class="mdl-layout-title"
-            >Type of Triangle Program</span
+            >Gym Membership Program</span
           >
         </div>
       </header>
       <main class="mdl-layout__content">
         <div>
           <img
-            src="./images/typeOfTriangle.png"
-            alt="types of triangles"
+            src="./images/gym.png"
+            alt="gym"
           />
         </div>
         <br />
         <div class="page-content">
-          Enter in your age
+          Enter membership type
         </div>
         <br />
         <form action="#">
+          <!--Radio-->
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="basic">
+            <input type="radio" id="basic" class="mdl-radio__button" name="membership" value="1" checked />
+            <span class="mdl-radio__label">Basic</span>
+          </label>
+          <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="premium">
+            <input type="radio" id="premium" class="mdl-radio__button" name="membership" value="2" />
+            <span class="mdl-radio__label">Premium</span>
+          </label>
+          <br />
+          <br />
+          <p>Enter for how many months</p>
           <!-- Textfield -->
           <div
             class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
@@ -55,33 +67,18 @@
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="a-length"
+              id="months-number"
             />
-            <label class="mdl-textfield__label" for="sample4"> Length...</label>
+            <label class="mdl-textfield__label" for="sample4"> Months...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
-          <br>
-          <!-- Textfield -->
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="b-length" />
-            <label class="mdl-textfield__label" for="sample4"> Length...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <br>
-          <!-- Textfield -->
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="c-length" />
-            <label class="mdl-textfield__label" for="sample4"> Length...</label>
-            <span class="mdl-textfield__error">Input is not a number!</span>
-          </div>
-          <br>
           <!-- Raised button with ripple -->
           <button
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect"
             onclick="myButtonClicked()"
             type="button"
           >
-            Identify
+            Enter
           </button>
         </form>
         <br />
