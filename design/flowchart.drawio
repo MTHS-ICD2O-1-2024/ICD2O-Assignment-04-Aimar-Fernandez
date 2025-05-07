@@ -132,6 +132,24 @@
                 <mxCell id="47" value="totalPrice = subtotalPrice + (subtotalPrice * ONTARIO_SALES_TAX)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="680" y="110" width="140" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="53" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="320" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="310" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="310" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="360" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="360" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="240" width="50" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
